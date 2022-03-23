@@ -1,0 +1,86 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #111;
+  margin: 2rem 8%;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+.inputJogador {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.inputJogador input {
+  width: 30%;
+  height: 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+.inputJogador button {
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.inputJogador button:hover {
+  background-color: #f1d10f;
+  border: 1px solid #f1d10f;
+}
+.inputPontos {
+  padding-bottom: 0.5rem;
+  text-align: left;
+  font-size: 14px;
+}
+.inputPontos label {
+  color: #ccc;
+}
+.inputPontos input {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
